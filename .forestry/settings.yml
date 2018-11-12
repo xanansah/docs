@@ -1,0 +1,127 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: directory
+  path: docs
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: docs/development
+  label: Development
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/tools-reference
+  label: Tools reference
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/assets
+  label: Assets
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/github-guide
+  label: Github guide
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/security
+  label: Security
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/contribute
+  label: Contribute
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/websites
+  label: Websites
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/platform
+  label: Platform
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/applications
+  label: Applications
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/linode-writers-formatting-guide
+  label: Linode writers formatting guide
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/web-servers
+  label: Web servers
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/quick-answers
+  label: Quick answers
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/getting-started
+  label: Getting started
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/troubleshooting
+  label: Troubleshooting
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/email
+  label: Email
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/uptime
+  label: Uptime
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/find-this-guide-on-github
+  label: Find this guide on github
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/limited-user-note-shortguide
+  label: Limited user note shortguide
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/networking
+  label: Networking
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/search
+  label: Search
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/databases
+  label: Databases
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/game-servers
+  label: Game servers
+  create: all
+  match: "**/*"
+upload_dir: static/uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+version: 0.38.2
